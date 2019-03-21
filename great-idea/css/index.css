@@ -70,11 +70,12 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 	display: flex;
 	align-content: space-around;
+	border: 5px solid green;
 }
 
 header {
 	justify-content: space-between;
-
+	border: 1px blueviolet;
 }
 
 
@@ -97,20 +98,30 @@ header nav a {
 
 
 
-.main-content section{
+.main-content section {
 	display: flex;	
+	border: 2px solid red;
+
 }
 
 .top-content {
-	
+	border: 2px blue;
 }
 
 .main-content {
 
 }
 
- .content text {
-	
+ .content-text {
+	width: 45%;
+	border: 1px solid black;
  }
 
+ .top-content .service-text {
+	 border-color: none;
+	 border-bottom: 1px solid black;
+	 margin-top: 20px;
+	 
+	 
+ }
 
