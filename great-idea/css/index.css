@@ -68,12 +68,11 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 100%;
 	margin: 0 auto;
-	display: flex;
-	align-content: space-around;
 	border: 5px solid green;
 }
 
 header {
+	display: flex;
 	justify-content: space-between;
 	border: 1px blueviolet;
 }
@@ -82,11 +81,11 @@ header {
 header .logo{
 	display: flex;	
 	margin-left: 200px ;
-	flex-wrap: wrap;
+
 }
 
 img {
- 	
+ 	display: inline-block;
 }
 
 header nav a {
@@ -104,12 +103,12 @@ header nav a {
 
 }
 
-.top-content {
-	border: 2px blue;
+.main-content .top-content {
+	border: 4px blue;
 }
 
 .main-content {
-
+	border: 4px solid blueviolet;
 }
 
  .content-text {
@@ -122,6 +121,11 @@ header nav a {
 	 border-bottom: 1px solid black;
 	 margin-top: 20px;
 	 
-	 
- }
+}
+
+.main-footer {
+	border: 2px black;
+}
+
+ 
 
